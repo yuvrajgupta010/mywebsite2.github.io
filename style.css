@@ -18,6 +18,7 @@ body, html{
 .containerh{
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(65px, 1fr));
+	grid-template-rows: repeat(auto-fill, minmax(10px, 20px));
 	column-gap: 2px;
 	align-content: center;
 }
