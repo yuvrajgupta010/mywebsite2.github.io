@@ -17,7 +17,7 @@ body, html{
 
 .containerh{
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(65px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
 	grid-template-rows: repeat(auto-fill, minmax(10px, 20px));
 	column-gap: 2px;
 	align-content: center;
@@ -28,9 +28,6 @@ p {
 	justify-self: center;
 }
 
-.p2{
-	justify-self: end;
-}
 
 .p1{
 	grid-column: -2/-1;
