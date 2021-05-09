@@ -19,6 +19,7 @@ body, html{
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(65px, 1fr));
 	column-gap: 2px;
+	align-content: center;
 }
 
 p {
